@@ -199,7 +199,7 @@ SIMPLE_JWT = {
 }
 
 LOGIN_URL = '/'
-
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # SMTP Configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  # servidor que será utilizado para o envio do email
