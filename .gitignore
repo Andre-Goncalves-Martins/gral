@@ -130,7 +130,6 @@ env/
 venv/
 ENV/
 env.bak/
-.env.bat
 venv.bak/
 
 # Spyder project settings
